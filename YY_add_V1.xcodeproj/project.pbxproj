@@ -12,6 +12,7 @@
 		A1449DF12330DBB800791751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1449DEF2330DBB800791751 /* Main.storyboard */; };
 		A1449DF32330DBBA00791751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1449DF22330DBBA00791751 /* Assets.xcassets */; };
 		A1449DF62330DBBA00791751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1449DF42330DBBA00791751 /* LaunchScreen.storyboard */; };
+		A1BD9E6D23318EEF00CB81FC /* MathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD9E6C23318EEF00CB81FC /* MathGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A1449DF22330DBBA00791751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1449DF52330DBBA00791751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1449DF72330DBBA00791751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BD9E6C23318EEF00CB81FC /* MathGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A1449DEB2330DBB800791751 /* AppDelegate.swift */,
 				A1449DED2330DBB800791751 /* ViewController.swift */,
 				A1449DEF2330DBB800791751 /* Main.storyboard */,
+				A1BD9E6C23318EEF00CB81FC /* MathGenerator.swift */,
 				A1449DF22330DBBA00791751 /* Assets.xcassets */,
 				A1449DF42330DBBA00791751 /* LaunchScreen.storyboard */,
 				A1449DF72330DBBA00791751 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				A1449DEE2330DBB800791751 /* ViewController.swift in Sources */,
 				A1449DEC2330DBB800791751 /* AppDelegate.swift in Sources */,
+				A1BD9E6D23318EEF00CB81FC /* MathGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
