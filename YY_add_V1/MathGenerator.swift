@@ -9,8 +9,10 @@
 import UIKit
 
 struct  MathGenerator {
-    let beiJiaShu :Int8 = Int8.random(in: 1...9)
-    let jiaShu :Int8 = Int8.random(in: 1...9)
+    static let add_scope: Int8 = 5
+    
+    let beiJiaShu :Int8 = Int8.random(in: 1...add_scope)
+    let jiaShu :Int8 = Int8.random(in: 1...add_scope)
     let emoji_str = "🍎"
     
     // 计算属性
