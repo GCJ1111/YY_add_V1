@@ -10,9 +10,9 @@ import UIKit
 
 struct  MathGenerator {
     // 配置 加数和被加数的 上限
-    
     static let addLowLmt: Int8 = 9
-    static let addUpLmt: Int8 = 5
+    // 配置 加数和被加数的 下限
+    static let addUpLmt: Int8 = 1
     
     let beiJiaShu :Int8 = Int8.random(in: addUpLmt...addLowLmt)
     let jiaShu :Int8 = Int8.random(in: addUpLmt...addLowLmt)
