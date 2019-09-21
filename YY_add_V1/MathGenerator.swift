@@ -10,7 +10,8 @@ import UIKit
 
 struct  MathGenerator {
     // 配置 加数和被加数的 上限
-    static let add_scope: Int8 = 5
+    
+    static let add_scope: Int8 = 99
     
     let beiJiaShu :Int8 = Int8.random(in: 1...add_scope)
     let jiaShu :Int8 = Int8.random(in: 1...add_scope)
