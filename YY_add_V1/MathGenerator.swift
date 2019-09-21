@@ -11,10 +11,11 @@ import UIKit
 struct  MathGenerator {
     // 配置 加数和被加数的 上限
     
-    static let add_scope: Int8 = 99
+    static let addLowLmt: Int8 = 9
+    static let addUpLmt: Int8 = 5
     
-    let beiJiaShu :Int8 = Int8.random(in: 1...add_scope)
-    let jiaShu :Int8 = Int8.random(in: 1...add_scope)
+    let beiJiaShu :Int8 = Int8.random(in: addUpLmt...addLowLmt)
+    let jiaShu :Int8 = Int8.random(in: addUpLmt...addLowLmt)
     let emoji_str = "🍎"
     
     // 计算属性

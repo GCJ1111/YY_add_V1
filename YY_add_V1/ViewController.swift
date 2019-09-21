@@ -38,8 +38,9 @@ class ViewController: UIViewController {
         let all_apple_cnt_str = add_tiMU.num2text(input: add_tiMU.add_result)
         
         // MARK: 更新最终结果, 数字 + 图标
-        addResult_Label.text = "一共有\n \(add_tiMU.add_result) 个苹果: \n" + all_apple_cnt_str
+//        addResult_Label.text = "一共有\n \(add_tiMU.add_result) 个苹果: \n" + all_apple_cnt_str
         
+        addResult_Label.text = "一共有???个苹果: \n" + all_apple_cnt_str
     }
     
 
